@@ -1,13 +1,13 @@
 # codefights
 Solutions to Code Fights tasks
 
-# Arcade
+## Arcade
 * Intro
 * Databases
 * The Core
 * Python
 * Graphs
 
-# Challenges
+## Challenges
 * Weekly
 * Daily
