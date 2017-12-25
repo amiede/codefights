@@ -1,0 +1,14 @@
+/* https://codefights.com/arcade/db/always-leave-table-in-order/aQJquGtwg4rgXwfqH */
+CREATE PROCEDURE mischievousNephews()
+BEGIN
+	SELECT WEEKDAY(mischief_date) as weekday, mischief_date, author, title 
+    FROM mischief 
+    ORDER BY weekday ASC,
+        CASE
+            WHEN author = 'Huey' THEN 1
+            WHEN author = 'Dewey' THEN 2
+            WHEN author = 'Louie' THEN 3
+        END ASC, 
+        mischief_date, title ASC
+    ;
+END

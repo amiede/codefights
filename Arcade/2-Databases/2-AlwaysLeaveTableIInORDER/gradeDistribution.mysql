@@ -1,0 +1,9 @@
+/* https://codefights.com/arcade/db/always-leave-table-in-order/jxvpRwWSTtmQne5XN */
+CREATE PROCEDURE gradeDistribution()
+BEGIN
+  SELECT Name, ID FROM Grades
+  WHERE 
+   (Final > ((Midterm1*0.5)+(Midterm2*0.5))) OR 
+   (Final > ((Midterm1*0.25)+(Midterm2*0.25)+(Final*0.5)))
+  ORDER BY LEFT(Name, 3), ID;
+END
