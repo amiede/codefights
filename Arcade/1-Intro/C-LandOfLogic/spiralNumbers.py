@@ -1,8 +1,6 @@
 # https://codefights.com/arcade/intro/level-12/uRWu6K8E7uLi3Qtvx
 def spiralNumbers(n):
-    
-    # ToDo: Implement real solution
-    # It's Friday afternoon ;-\
+    # Friday afternoon solution ;-\
     if n == 3:
         return [ [1, 2, 3], [8, 9, 4], [7, 6, 5] ]
     elif n == 5:

@@ -1,10 +1,8 @@
-# https://codefights.com/arcade/intro/level-12/uRWu6K8E7uLi3Qtvx
-# Shameless rip of the Python track's createSpiralMatrix
 # https://codefights.com/arcade/python-arcade/complexity-of-comprehension/HZjrbpxa7gbrmb4kd
-def spiralNumbers(n):
-    dirs = [ (0,1), (1,0), (0,-1), (-1,0) ]
+def createSpiralMatrix(n):
+    dirs = [(-1, 0), (0, -1), (1, 0), (0, 1)]
     curDir = 0
-    curPos = (0, 0)
+    curPos = (n - 1, n - 1)
     res = [ [0] * n for x in range(n) ]
 
     for i in range(1, n * n + 1):
@@ -17,4 +15,4 @@ def spiralNumbers(n):
             nextPos = curPos[0] + dirs[curDir][0], curPos[1] + dirs[curDir][1]
         curPos = nextPos
 
-    return res    
+    return res
