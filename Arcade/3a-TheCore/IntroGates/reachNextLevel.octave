@@ -1,0 +1,4 @@
+# https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/m9wjpkCjgofg7gs8N
+function res = reachNextLevel (experience, threshold, reward)
+    res = (experience + reward) >= threshold
+endfunction
