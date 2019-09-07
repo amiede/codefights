@@ -14,6 +14,7 @@ def digitsToNumber(digitsList):
 # return sorted(*eval(dir()[0]), key=len)
 # w,d = eval(dir()[0])
 # (a, b, c), (d, e, f) = eval(dir()[0])
+# vars() --> dict of input parameters
 # swapCase = str.swapcase
 
 #********************************************
