@@ -17,6 +17,9 @@ def digitsToNumber(digitsList):
 # vars() --> dict of input parameters
 # swapCase = str.swapcase
 
+# Add to list shorthand
+R.append(a) --> R += [a] # but beware
+
 #********************************************
 # Character-saving workaround (Challenges/Coffee)
 # [x
