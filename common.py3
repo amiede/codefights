@@ -17,8 +17,14 @@ def digitsToNumber(digitsList):
 # vars() --> dict of input parameters
 # swapCase = str.swapcase
 
+# n, *r = eval(dir()[0])
+#same as --> r = []
+# return r
+
 # Add to list shorthand
 R.append(a) --> R += [a] # but beware
+
+
 
 #********************************************
 # Character-saving workaround (Challenges/Coffee)
