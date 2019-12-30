@@ -6,6 +6,11 @@ def numberToDigits(n):
     return [ int(i) for i in str(n) ]
 	return list(map(int, str(num)))
 # alternatively divide by 10, 100, ... ;-)
+
+# Digit sum
+sum(map(int, str(number)))
+sum(int(digit) for digit in str(number))
+
 	
 # Convert a list of int digits to an integer
 def digitsToNumber(digitsList):
@@ -21,6 +26,7 @@ matrix[a] # row a
 # (a, b, c), (d, e, f) = eval(dir()[0])
 # vars() --> dict of input parameters
 # swapCase = str.swapcase
+# return f"Hello, {eval(dir()[0])[0]}"
 
 # 
 if b > a:
