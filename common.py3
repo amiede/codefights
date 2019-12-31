@@ -28,6 +28,10 @@ matrix[a] # row a
 # swapCase = str.swapcase
 # return f"Hello, {eval(dir()[0])[0]}"
 
+
+# Ternary if elif else
+# expr1 if condition1 else expr2 if condition2 else expr
+
 # 
 if b > a:
     a, b = b, a
