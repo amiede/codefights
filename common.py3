@@ -29,8 +29,12 @@ matrix[a] # row a
 # return f"Hello, {eval(dir()[0])[0]}"
 
 
+#Ternary return
+# return n if n<m else m
 # Ternary if elif else
 # expr1 if condition1 else expr2 if condition2 else expr
+# ternary shortcut
+# a = true  && 5 || 10
 
 # 
 if b > a:
@@ -58,4 +62,5 @@ for i, j in zip(s, s[1:]):
 # Character-saving workaround (Challenges/Coffee)
 # [x
 # n] = args
+# return args[0].replace /\B/g, "-"
 #********************************************
