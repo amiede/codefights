@@ -16,3 +16,8 @@ for i in range(1,n):
         c = True
 
 return c
+
+
+# Solution by teebee
+#n, = eval(dir()[0])
+#return n > n & -n

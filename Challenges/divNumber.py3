@@ -10,3 +10,8 @@ for i in range(l, r+1):
     if len(t) == k:
         s += 1
 return s
+
+
+# Solution by duckalisk
+#r = range
+#divNumber = lambda k, a, b: sum(sum(n%~d == 0 for d in r(n)) == k for n in r(a, b+1))

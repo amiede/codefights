@@ -11,3 +11,12 @@ for i in range(n):
     #l.append(i)
 
 return l == a
+
+
+#n,a, = eval(dir()[0])
+#    
+#l = list(range(1,n+1))
+#
+#a.sort()
+#
+#return l == a

@@ -11,3 +11,11 @@ for r in p:
 n += [ n[0] ]
 
 return n
+
+
+# Solution by duckalisk
+#def addBorder(p):
+#    s = '*'
+#    a = [s*len(p[0])]
+#    
+#    return [s + r + s for r in a + p + a]

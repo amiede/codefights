@@ -20,8 +20,10 @@ def lineEncoding(s):
     
     return n
     
-    
-    
-    
     #m = re.compile(r'(\w)\1*')
     #print([match.group() for match in m.finditer(s)])
+
+	
+# Solution by minhphan
+#s, = eval(dir()[0])
+#return re.sub(r"(.)\1+", lambda m: str(len(m.group(0))) + m.group(1), s)	

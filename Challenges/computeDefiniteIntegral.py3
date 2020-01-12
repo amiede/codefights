@@ -9,4 +9,5 @@ def computeDefiniteIntegral(l, r, P):
     return s
     
 def ig(b,n,x):
-    return ( (b/(n+1)) * (x**(n+1)) )    
+    return ( (b/(n+1)) * (x**(n+1)) )
+    

@@ -8,3 +8,7 @@ for i in range(2,eval(dir()[0])[0]+1):
     r -= 1
 
 return r
+
+
+# Solution by duckalisk
+#f = quasifactorial = lambda n: 1//n or n*f(n-1) - 1

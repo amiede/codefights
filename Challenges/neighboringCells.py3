@@ -17,3 +17,35 @@ for i in range(r):
                 m[x][y] += 1 
 
 return m
+
+
+# Solution by dung_l2
+#def neighboringCells(matrix):
+#m, = eval(dir()[0])
+#x = len(m)
+#for i in range(x):
+#  y = len(m[i])
+#  for j in range(y):
+#    if i != x - 1:
+#      m[i][j] += 1
+#    if i:
+#      m[i][j] += 1
+#    if j != y - 1:
+#      m[i][j] += 1
+#    if j:
+#      m[i][j] += 1
+#
+#return m
+
+
+# Solution by duckalisk
+#m, = eval(dir()[0])
+#
+#for _ in ' '*4:
+#    m = numpy.rot90(m)
+#    m[1:] += 1
+#
+#return m
+# Add 1 to all rows except first to count
+# neighbors directly above. Rotate matrix
+# 4 times to count in each direction.

@@ -2,3 +2,5 @@
 #def arrayMinimumIndex(inputArray):
 i, = eval(dir()[0])
 return i.index(min(i))
+
+#arrayMinimumIndex = numpy.argmin

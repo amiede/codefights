@@ -11,3 +11,14 @@ for i in range(len(s)):
     n = s + s[0:i+1][::-1]
     if n == n[::-1]:
         return n
+		
+		
+# Solution by duckalisk
+#s, = eval(dir()[0])
+#
+#t = ''
+#for c in s:
+#    q = s + t
+#    if q == q[::-1]:
+#        return q
+#    t = c + t		
