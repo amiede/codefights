@@ -54,8 +54,13 @@ t = l[:]
 R.append(a) --> R += [a] # but beware
 
 # shorthand to access current and next element
+# [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
 i < j for i, j in zip(s, s[1:])
 for i, j in zip(s, s[1:]):
+
+# for [(1, 2), (3, 4), (5, 6)]
+zip(data[0::2], data[1::2])
+# data[0::2] means create subset collection of elements that (index % 2 == 0)
 
 
 #********************************************
