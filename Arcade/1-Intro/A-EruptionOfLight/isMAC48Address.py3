@@ -10,11 +10,10 @@ def isMAC48Address(inputString):
     # Hexadecimal conversion with exception
     try:
         for g in groups:
-            int(g, 16)
-            
+            int(g, 16)            
         return True
     except ValueError:
         return False
     
-    # RegEx solution: ToDo
-    # --> r"([0-9a-fA-F]{2}[-]){5}([0-9a-fA-F]{2})"
+    # RegEx solution: https://www.regextester.com/
+    # return bool(re.match("^([\dA-F]{2}-){5}[\dA-F]{2}$", inputString))
