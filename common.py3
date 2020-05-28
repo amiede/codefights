@@ -52,6 +52,7 @@ t = l[:]
 
 # Add to list shorthand
 R.append(a) --> R += [a] # but beware
+R += a, # even shorter!
 
 # shorthand to access current and next element
 # [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
